@@ -1,0 +1,31 @@
+{
+  "name": "discord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:checkBotRoles": "node checkBotRoles.js",
+    "start:exportMembers": "node exportMembers.js",
+    "start:assignRoles": "node assignRoles.js",
+    "start:syncRoles": "node syncRoles.js",
+    "start:exportRoles": "node exportRoles.js",
+    "start:importRoles": "node importRoles.js",
+    "start:exportChannels": "node exportChannels.js",
+    "start:importChannels": "node importChannels.js",
+    "generate-excel": "node generate-excel.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "members"
+  ],
+  "author": "coder",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.5.0",
+    "xlsx": "^0.18.5"
+  }
+}
